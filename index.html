@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro Timer Second Brainstorm</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+  </head>
+  <body>
+    <header>
+        <h1> Library Management System </h1>
+        <h2> Pomodoro Timer Second Brainstorm</h2>
+        <h3> Date:<i>11.04.2023</i></h3>
+    </header>
+    <section>
+        <strong>Attendance List</strong>
+        <ul>
+            <li>John Doe</li>
+            <li>Herbert Beckhauer</li>
+            <li>Henry Taylor</li>
+            <li>Stanley Brown</li>
+        </ul>
+    </section>
+    <hr>
+    <main>
+        <h1>Discussion</h1>
+        <section>
+            <h2>Agenda</h2>
+            <ol>
+                <li>Check-in</li>
+                <li>Unfinished Tasks from Last Meeting</li>
+                <li>New Business</li>
+                <li>Questions/Comments/Concerns</li>
+            </ol>
+        </section>
+        <img src="2-dfd-for-library-management-system.png", alt = "General Architecture of Library Management System", width="600">
+        <section>
+            <h2>Unfinished Tasks from last meeting</h2>
+            <ul>
+                <li><strong>John</strong> to discuss with the stakeholders about feature requirements</li>
+                <li><strong>Stanley</strong> to update documentation for API endpoints</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>New Business</h2>
+            <ul>
+                <li>Brainstorm ideas of features to include in system</li>
+                <li>Discuss potential issue for the database performance and accuracy</li>
+                <li>Assign task to complete testing of the login feature</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Questions/Comments/Concerns</h2>
+            <p>
+                Henry has discovered a <b>performance issue with database queries</b> that is causing long response time.<br>
+                Herbert has discovered a bug with <b>fine system payment gateway</b> that needs <b><em>immediate attention</em></b>.
+            </p>
+        </section>
+
+        <details open>
+            <summary>Project Timeline</summary>
+            <ul>
+                <li>Sprint review meeting scheduled for May 1st</li>
+                <li>User acceptance testing deadline is June 28th</li>
+                <li>Project completion deadline is July 5th</li>
+            </ul>
+        </details>
+    </main>
+    <footer>
+        <h2>Meeting recordings</h2>
+        <nav>
+            <ul> 
+                <li><span><a href="mailto:114514@tadakoro.com"><i>Meeting Recorder Email</i></a></span></li>
+                <li><div><a href="tel:+1919810">Meeting Recorder Phone</a></div></li>
+            </ul>
+            <video controls width="300">
+                <source src="Meeting video.mp4">
+            </video>
+            <br>
+            <audio controls>
+                <source src="Meeting-video.mp3">
+            </audio>
+        </nav>
+    </footer>
+    <br>
+    <form>
+        <fieldset>
+            <legend> Survey of patients' illness</legend>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="syndrome">Tell us your syndrome:</label>
+            <textarea id="syndrome" name="syndrome" rows="6" cols="30">
+            </textarea>
+            <br>
+            <label for="length">How long do you have this syndrome?</label>
+            <input list="length" name="length">
+            <datalist id="length">
+                <option value="1 month">
+                <option value="3 month">
+                <option value="6 month">
+                <option value="1 year or greater">
+            </datalist>
+        </fieldset>
+        <button type="button">Submit</button>
+    </form>
+  </body>
+</html>
