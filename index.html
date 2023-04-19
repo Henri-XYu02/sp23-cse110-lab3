@@ -4,14 +4,16 @@
     <title>Pomodoro Timer Second Brainstorm</title>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="stylesheet" href="mystyle.css">
   </head>
   <body>
-    <header>
+    <header class="header">
         <h1> Library Management System </h1>
-        <h2> Pomodoro Timer Second Brainstorm</h2>
+        <h2 style="color:red;"> Pomodoro Timer Second Brainstorm</h2>
         <h3> Date:<i>11.04.2023</i></h3>
     </header>
-    <section>
+
+    <section id="attendance">
         <strong>Attendance List</strong>
         <ul>
             <li>John Doe</li>
@@ -20,8 +22,10 @@
             <li>Stanley Brown</li>
         </ul>
     </section>
+
     <hr>
     <main>
+        <div></div>
         <h1>Discussion</h1>
         <section>
             <h2>Agenda</h2>
@@ -32,7 +36,10 @@
                 <li>Questions/Comments/Concerns</li>
             </ol>
         </section>
-        <img src="2-dfd-for-library-management-system.png" alt = "General Architecture of Library Management System" width="600">
+        <figure>
+            <img id="img" src="2-dfd-for-library-management-system.png" alt = "General Architecture of Library Management System" width="50">
+            <figcaption>General Diagram</figcaption>
+        </figure>
         <section>
             <h2>Unfinished Tasks from last meeting</h2>
             <ul>
@@ -58,7 +65,7 @@
             </p>
         </section>
 
-        <details open>
+        <details class="ddl" open>
             <summary>Project Timeline</summary>
             <ul>
                 <li>Sprint review meeting scheduled for May 1st</li>
@@ -66,19 +73,20 @@
                 <li>Project completion deadline is July 5th</li>
             </ul>
         </details>
+
     </main>
     <footer>
         <h2>Meeting recordings</h2>
         <nav>
             <ul> 
                 <li><span><a href="mailto:114514@tadakoro.com"><i>Meeting Recorder Email</i></a></span></li>
-                <li><div><a href="tel:+1919810">Meeting Recorder Phone</a></div></li>
+                <li><a href="tel:+1919810">Meeting Recorder Phone</a></li>
             </ul>
-            <video controls width="300">
+            <video controls width="100">
                 <source src="Meeting-video.mp4">
             </video>
             <br>
-            <audio controls>
+            <audio controls width="100">
                 <source src="Meeting-video.mp3">
             </audio>
         </nav>
