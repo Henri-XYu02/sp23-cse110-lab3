@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://henri-xyu02.github.io/Lab2_Starter/
+https://henri-xyu02.github.io/sp23-cse110-lab3/
