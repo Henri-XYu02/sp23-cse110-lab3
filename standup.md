@@ -10,7 +10,7 @@
 ## Accomplishment Update Yesterday
 
 1) Stanley's status update:
-   1) 
+   1) Do D
 
 ## Tasks to Complete Today
 
@@ -23,8 +23,8 @@
 
 1) @Everyone: 
 2) @Stanley:
-    1) 
-    2) 
+    1) DO F
+    2) FO E
 
 ## General Meeting Notes
 1) None
