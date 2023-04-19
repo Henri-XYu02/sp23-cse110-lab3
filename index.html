@@ -36,10 +36,12 @@
                 <li>Questions/Comments/Concerns</li>
             </ol>
         </section>
+
         <figure>
             <img id="img" src="2-dfd-for-library-management-system.png" alt = "General Architecture of Library Management System" width="50">
             <figcaption>General Diagram</figcaption>
         </figure>
+
         <section>
             <h2>Unfinished Tasks from last meeting</h2>
             <ul>
@@ -74,7 +76,30 @@
             </ul>
         </details>
 
+        <section>
+            <h2>Here are something with some play of flex modules</h2>
+            <ul class="flex-container">
+                <li class="flex-item">Next Board Meeting:19/04/2023</li>
+                <li class="flex-item">Submitted by: Herbert Beckhauer</li>
+                <li class="flex-item-2">Approved by: Luigi Ricci</li>
+                <li class="flex-item">Platform: Zoom</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Here are something with some play of grid</h2>
+            <div class="grid-container">
+                <div class="grid item-1">greenEggsAndHam</div>
+                <div class="grid item-2">iHateCplusplus</div>
+                <div class="grid item-3">HTMLRocks</div>
+                <div class="grid item-4">JavaScriptRules</div>
+                <div class="grid item-5">SvelteBeatsReact</div>
+                <div class="grid item-6">2020sucked</div>
+            </div>
+        </section>
+
     </main>
+    <br>
     <footer>
         <h2>Meeting recordings</h2>
         <nav>
@@ -92,34 +117,38 @@
         </nav>
     </footer>
     <br>
-    <form>
-        <fieldset>
-            <legend> Survey of patients' illness</legend>
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="name" required>
-            <br>
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender">
-                <option value="">Select Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-            <br>
-            <label for="syndrome">Tell us your syndrome:</label>
-            <textarea id="syndrome" name="syndrome" rows="6" cols="30">
-            </textarea>
-            <br>
-            <label for="le">How long do you have this syndrome?</label>
-            <input list="length" id="le" name="le"/>
-            <datalist id="length">
-                <option value="1 month"></option>
-                <option value="3 month"></option>
-                <option value="6 month"></option>
-                <option value="1 year or greater"></option>
-            </datalist>
-        </fieldset>
-        <button type="button">Submit</button>
-    </form>
+    <details open>
+        <summary>Here is a form if you overwork and get sick</summary>
+        <form>
+            <fieldset>
+                <legend> Survey of patients' illness</legend>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="syndrome">Tell us your syndrome:</label>
+                <textarea id="syndrome" name="syndrome" rows="6" cols="30">
+                </textarea>
+                <br>
+                <label for="le">How long do you have this syndrome?</label>
+                <input list="length" id="le" name="le"/>
+                <datalist id="length">
+                    <option value="1 month"></option>
+                    <option value="3 month"></option>
+                    <option value="6 month"></option>
+                    <option value="1 year or greater"></option>
+                </datalist>
+            </fieldset>
+            <button type="button">Submit</button>
+        </form>
+    </details>
+    
   </body>
 </html>
